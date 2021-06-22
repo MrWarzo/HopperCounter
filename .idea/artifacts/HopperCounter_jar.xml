@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HopperCounter:jar">
+    <output-path>$PROJECT_DIR$/../serveur test/plugins</output-path>
+    <root id="archive" name="HopperCounter.jar">
+      <element id="module-output" name="HopperCounter" />
+    </root>
+  </artifact>
+</component>
