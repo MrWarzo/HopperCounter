@@ -31,7 +31,7 @@ public class CommandHopperCounter implements CommandExecutor, TabCompleter {
             sender.sendMessage("§6------------------------");
             sender.sendMessage("§6Nom:      HopperCounter");
             sender.sendMessage("§6Auteur:   MrWarzo");
-            sender.sendMessage("§6Version:  1.0.0");
+            sender.sendMessage("§6Version:  1.0.1");
             sender.sendMessage("§6------------------------");
         } else if (args.length == 1) {
             switch (args[0]) {

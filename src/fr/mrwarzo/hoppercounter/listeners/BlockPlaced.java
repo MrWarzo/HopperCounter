@@ -43,7 +43,7 @@ public class BlockPlaced implements Listener {
                 hoppers.put(chunk, count);
             }
 
-            if (count <= hoppersLimit) {
+            if (count < hoppersLimit) {
                 count++;
                 hoppers.replace(chunk, count);
                 player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ConfigBuilder.getString("hoppers.name") + " : " + count + "/" + hoppersLimit));
@@ -58,7 +58,7 @@ public class BlockPlaced implements Listener {
                 observers.put(chunk, count);
             }
 
-            if (count <= observersLimit) {
+            if (count < observersLimit) {
                 count++;
                 observers.replace(chunk, count);
                 player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ConfigBuilder.getString("observers.name") + " : " + count + "/" + observersLimit));
